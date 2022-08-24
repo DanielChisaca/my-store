@@ -15,4 +15,12 @@ export class AppComponent {
       age: 18,
       avatar : 'https://source.unsplash.com/random'
   }
+
+  toggleButton() {
+    this.btnDisable = !this.btnDisable;
+  }
+
+  increaseAge() {
+    this.person.age += 1;
+  }
 }
